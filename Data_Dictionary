@@ -1,0 +1,233 @@
+Data Dictionary:
+
+ 
+
+Customer ID: Unique identifier for each customer
+
+ 
+
+Count : Count of the customer
+
+- 1
+
+ 
+
+Country : Country each customer is located in
+
+- United States
+
+ 
+
+State : State each customer is located in
+
+- California
+
+ 
+
+City : City each customer is located in
+
+ 
+
+Zip Code : Postal code associated with each customer's location
+
+ 
+
+Lat Long : Geographic coordinates of each customer's location
+
+ 
+
+Latitude : Latitude value of the location
+
+ 
+
+Longitude : Longitude value of the location
+
+ 
+
+Gender : Gender of the customer
+
+- Male
+
+- Female
+
+ 
+
+Senior Citizen : Is the customer a senior citizen?
+
+- No
+
+- Yes
+
+ 
+
+Partner : Does the customer have a partner?
+
+- No
+
+- Yes
+
+ 
+
+Dependents : Does the customer have dependents?
+
+- No
+
+- Yes
+
+ 
+
+Tenure Months : Number of months the customer has been with the company
+
+ 
+
+Phone Service : Does the customer have phone service?
+
+- No
+
+- Yes
+
+ 
+
+Multiple Lines : Does the customer have multiple phone lines?
+
+- No phone service
+
+- No
+
+- Yes
+
+ 
+
+Internet Service : Type of internet service opted by the customer
+
+- DSL
+
+- Fiber optic
+
+- No
+
+ 
+
+Online Security : Does the customer have online security?
+
+- No internet service
+
+- No
+
+- Yes
+
+ 
+
+Online Backup : Does the customer have online backup?
+
+- No internet service
+
+- No
+
+- Yes
+
+ 
+
+Device Protection : Does the customer have device protection?
+
+- No internet service
+
+- No
+
+- Yes
+
+ 
+
+Tech Support : Does the customer have tech support?
+
+- No internet service
+
+- No
+
+- Yes
+
+ 
+
+Streaming TV : Does the customer have streaming TV service?
+
+- No internet service
+
+- No
+
+- Yes
+
+ 
+
+Streaming Movies : Does the customer have streaming movie service?
+
+- No internet service
+
+- No
+
+- Yes
+
+ 
+
+Contract : Type of contract the customer has
+
+- Month-to-month
+
+- One-year
+
+- Two-year
+
+ 
+
+Paperless Billing : Has the customer opted for paperless billing?
+
+- No
+
+- Yes
+
+ 
+
+Payment Method : Method of payment the customer uses
+
+- Bank transfer (automatic)
+
+- Credit card (automatic)
+
+- Electronic check
+
+- Mailed check
+
+ 
+
+Monthly Charges : Amount charged to the customer each month
+
+ 
+
+Total Charges : Total amount charged to the customer over their tenure
+
+ 
+
+Churn Label : Whether the customer has churned?
+
+- No
+
+- Yes
+
+ 
+
+Churn Value : Binary value for churn label
+
+- 0 : No
+
+- 1 : Yes
+
+ 
+
+Churn Score : Percentage probability of churning
+
+ 
+
+CLTV [Customer Lifetime Value] : Average revenue that can be generated from the customer over entire lifetime of their account
+
+ 
+
+Churn Reason : Reason for churning
